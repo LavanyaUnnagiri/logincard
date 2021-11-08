@@ -209,7 +209,7 @@
 		order:0;
 		flex-direction: column;
 		height: 90vh;
-		width:75%;
+		min-width:600px;
 		padding-left:10px;
 		padding-right:5px;
 		padding-bottom:20px;
@@ -308,7 +308,7 @@
 /*Style*/
 .contact-us-section  {
 		order:0;
-		width: 500px;
+		min-width: 400px;
 		height: 75%;
 		right:10px;
 		padding-left:10px;
@@ -321,7 +321,7 @@
 	}
 .responsive {
   order:1;
-  width: 500px;
+  width: 400px;
   height: 75%;
   
 }
