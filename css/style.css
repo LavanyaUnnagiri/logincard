@@ -206,11 +206,11 @@
 }
 @media (max-width: 900px) {
 	.contact-us-section {
-		right:0;
+		
 		flex-direction: column;
 		height: 90vh;
 		width:75%;
-		padding-left:5px;
+		padding-left:10px;
 		padding-bottom:20px;
 	}
 	.row{
@@ -281,11 +281,11 @@
 @media screen and (min-width : 768px) and (max-width : 1023px){
 /*Style*/
 .contact-us-section  {
-		right:0;
+		
 		width: 700px;
 		height: 75%;
 		right:20px;
-		padding-left:5px;
+		padding-left:10px;
 		padding-bottom:20px;
 	}
 	.row{
@@ -309,7 +309,7 @@
 		width: 400px;
 		height: auto;
 		right:10px;
-		padding-left:5px;
+		padding-left:10px;
 		padding-bottom:20px;
 	}
 	.row{
