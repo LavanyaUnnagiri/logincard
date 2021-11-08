@@ -211,7 +211,7 @@
 		height: 90vh;
 		width:75%;
 		padding-left:5px;
-		padding-bottom:10px;
+		padding-bottom:5px;
 	}
 	.row{
 		display: flex;
@@ -286,7 +286,7 @@
 		height: 75%;
 		right:20px;
 		padding-left:5px;
-		padding-bottom:10px;
+		padding-bottom:5px;
 	}
 	.row{
 		display: flex;
@@ -310,7 +310,7 @@
 		height: auto;
 		right:10px;
 		padding-left:5px;
-		padding-bottom:10px;
+		padding-bottom:5px;
 	}
 	.row{
 		display: flex;
