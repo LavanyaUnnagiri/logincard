@@ -208,10 +208,10 @@
 	.contact-us-section {
 		order:0;
 		flex-direction: column;
-		height: 90vh;
+		height: auto;
 		min-width:500px;
 		padding-left:10px;
-		padding-right:5px;
+		padding-right:15px;
 		padding-bottom:20px;
 	}
 	.row{
@@ -259,7 +259,7 @@
 	.contact-us-right {
 		order:0;
 		width: 450px;
-		height: 75%;
+		height: auto;
 	}
 	.row{
 		display: flex;
@@ -267,7 +267,7 @@
 	}
 .responsive {
   order:1;
-  width: 500px;
+  width: 600px;
   height: 75%;
   
 }
@@ -284,10 +284,10 @@
 .contact-us-section  {
 		order:0;
 		width: 700px;
-		height: 75%;
+		height: auto;
 		right:20px;
 		padding-left:10px;
-		padding-right:5px;
+		padding-right:15px;
 		padding-bottom:20px;
 	}
 	.row{
