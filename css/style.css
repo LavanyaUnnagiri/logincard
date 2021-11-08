@@ -289,6 +289,9 @@
 		padding-left:10px;
 		padding-right:15px;
 		padding-bottom:20px;
+	}.contact-us-form-holder {
+		max-width: 95%;
+		min-width: 800px;
 	}
 	.row{
 		display: flex;
@@ -308,12 +311,16 @@
 /*Style*/
 .contact-us-section  {
 		order:0;
-		min-width: 500px;
+		min-width: 600px;
 		height: 75%;
 		right:10px;
 		padding-left:10px;
-		padding-right:5px;
+		
 		padding-bottom:20px;
+	}
+	.contact-us-form-holder {
+		max-width: 95%;
+		min-width: 600px;
 	}
 	.row{
 		display: flex;
