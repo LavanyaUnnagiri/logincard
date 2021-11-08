@@ -208,7 +208,7 @@
 	.contact-us-section {
 		margin-left: -3%;
 		flex-direction: column;
-		min-width:600px;
+		min-width:500px;
 		height: 90vh;
 		width:75%;
 		padding-left:15px;
@@ -259,7 +259,7 @@
 @media (max-width: 500px) {
 	.contact-us-right {
 		order:0;
-		min-width:600px;
+		min-width:450px;
 		width: 300px;
 		height: auto;
 	}
@@ -284,7 +284,7 @@
 @media screen and (min-width : 768px) and (max-width : 1023px){
 /*Style*/
 .contact-us-section  {
-		min-width:600px;
+		min-width:800px;
 		margin-left: -3%;
 		width: 700px;
 		height: 75%;
@@ -312,7 +312,7 @@
 .contact-us-section  {
 		right:0;
 		margin-left: -3%;
-		min-width:400px;
+		min-width:350px;
 		width: 400px;
 		height: auto;
 		right:10px;
