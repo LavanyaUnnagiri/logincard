@@ -208,11 +208,11 @@
 	.contact-us-section {
 		order:0;
 		flex-direction: column;
-		height: auto;
-		
-		padding-left:20px;
-		padding-right:15px;
+		height: 90vh;
+		width:75%;
 		padding-bottom:20px;
+		right:20px;
+		
 	}
 	.row{
 		display: flex;
@@ -222,6 +222,7 @@
  		 order:1;
  		 width: 700px;
  		 height: 75%;
+		 position:relative;
   
 	}
 	.contact-us-left h1 {
@@ -243,6 +244,8 @@
 	.contact-us-form-holder {
 		max-width: 95%;
 		min-width: 95%;
+		margin:0;
+		border:0;
 	}
 	.contact-us-social-media-buttons {
 		width: 100px;
@@ -259,7 +262,7 @@
 	.contact-us-right {
 		order:0;
 		width: 450px;
-		height: auto;
+		height: 75%;
 	}
 	.row{
 		display: flex;
@@ -267,7 +270,7 @@
 	}
 .responsive {
   order:1;
-  width: 600px;
+  width: 500px;
   height: 75%;
   
 }
@@ -284,14 +287,9 @@
 .contact-us-section  {
 		order:0;
 		width: 700px;
-		height: auto;
-		right:20px;
-		padding-left:10px;
-		padding-right:15px;
-		padding-bottom:20px;
-	}.contact-us-form-holder {
-		max-width: 95%;
-		min-width: 800px;
+		height: 75%;
+		
+		
 	}
 	.row{
 		display: flex;
@@ -311,16 +309,13 @@
 /*Style*/
 .contact-us-section  {
 		order:0;
-		width:600px;
+		width: 500px;
 		height: 75%;
-		right:10px;
-		padding-left:20px;
+		padding-bottom: 20px;
 		
-		padding-bottom:20px;
-	}
-	.contact-us-form-holder {
-		max-width: 95%;
-		min-width: 600px;
+		right:10px;
+		
+		
 	}
 	.row{
 		display: flex;
@@ -328,9 +323,43 @@
 	}
 .responsive {
   order:1;
-  width: 600px;
+  width: 500px;
   height: 75%;
+  position:relative;
   
+}
+.footer {
+  padding: 1rem 2%;
+}
+
+.footer nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer nav a,
+.footer nav div {
+  text-decoration: none;
+  font-size: 13px;
+  color: #536471;
+  margin: .2rem .4rem;
+  text-transform: capitalize;
+  border-bottom: 1px solid transparent;
+  transition: all .2s ease;
+}
+.footer p{
+  text-align: center;
+  font-size: 13px;
+  color:#536471;
+  margin: .2rem .4rem;
+  border-bottom: 1px solid transparent;
+}
+
+.footer nav a:hover {
+  border-bottom: 1px solid #536471;
 }
 
 }
