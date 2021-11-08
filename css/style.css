@@ -312,9 +312,12 @@
 		order:0;
 		width: 500px;
 		height: 75%;
+		left:20px;
 		padding-bottom: 20px;
 		padding-left:20px;
 		right:10px;
+		min-width:350px;
+	
 		
 		
 	}
@@ -324,7 +327,7 @@
 	}
 .responsive {
   order:1;
-  width: 500px;
+  width: 600px;
   height: 75%;
   position:relative;
   
